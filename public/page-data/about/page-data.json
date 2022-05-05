@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-about-js",
     "path": "/about/",
-    "result": {"pageContext":{}},
+    "result": {"data":{"markdownRemark":{"html":"<h1>A short biography about me</h1>\n<p>This is a very short biography about <em><strong>me</strong></em>. But it could be as long as I want it to be.</p>"}},"pageContext":{}},
     "staticQueryHashes": []}

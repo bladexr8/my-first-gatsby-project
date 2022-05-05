@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"name":"Peter Parker","role":"Developer at Web Technologies"}}},"pageContext":{}},
     "staticQueryHashes": []}
