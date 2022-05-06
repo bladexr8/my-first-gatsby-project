@@ -15,6 +15,13 @@ module.exports = {
         path: `${__dirname}/MDX/bio`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-blog-posts`,
+        path: `${__dirname}/MD/blog-posts`,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: 'gatsby-source-graphcms',
@@ -22,6 +29,7 @@ module.exports = {
         endpoint: process.env.GRAPHCMS_ENDPOINT,
       },
     },
+    'gatsby-transformer-remark',
     'gatsby-plugin-mdx',
     'gatsby-plugin-postcss'
   ],
