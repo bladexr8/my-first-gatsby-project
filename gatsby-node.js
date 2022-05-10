@@ -22,10 +22,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
   // render template for each blog post
+  // defer: true renders pages when requested
+  // not at build time
   BlogPostQuery.data.allMarkdownRemark.nodes.forEach(({ fields: { slug }}) => {
     createPage({
       path: `blog${slug}`,
       component: BlogPostTemplate,
+      defer:true,
       context: {
         slug: slug
       }
